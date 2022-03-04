@@ -18,6 +18,9 @@ app.use(express.json());
 //adicion de limite en datos enviados
 app.use(bodyParser.json({ limit: '50mb' }));
 
+//se establece las rutas
+app.use('/api/user', require('./router/user.router'));
+
 const port = process.env.PORT || 4040;
 app.listen(port, () => {
   console.log('Server run in port: ', port);
