@@ -4,7 +4,11 @@
   "description": "creacion de plantilla para backends desarrollados en node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon src/index.js",
+    "format": "prettier --write {*.js,src/**/**/**/*.{js,jsx}}",
+    "save": "npm run format && git add . && echo 'Porfavor haz el commit de los cambios'"
+
   },
   "keywords": [
     "nodejs",
