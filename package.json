@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon src/index.js",
-    "format": "prettier --write {*.js,src/**/**/**/*.{js,jsx}}",
+    "format": "prettier --write {*.js,./**/**/**/*.{js}}",
     "save": "npm run format && git add . && echo 'Porfavor haz el commit de los cambios'"
 
   },

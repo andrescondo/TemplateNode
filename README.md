@@ -10,4 +10,4 @@ Comandos **npm run**
  `````
 
 Prettier:
-se añade un comando de prettier con un alcance de hasta 4 sub carpetas debajo de la principal "src"
+se añade un comando de prettier con un alcance de hasta 4 sub carpetas debajo de la principal "./"
